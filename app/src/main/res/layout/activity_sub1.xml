@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/sub1"
+    tools:context=".SubActivity1">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view4"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="sub1.json"
+        app:lottie_loop="true" />
+
+    <Button
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="-365dp"
+        android:layout_marginTop="460dp"
+        android:id="@+id/sendMsgBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/hanna"
+        android:text="연결 하기" />
+
+    <ImageView
+        android:id="@+id/fail_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fail"
+        android:layout_marginLeft="-190dp"
+        android:layout_marginTop="170dp"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

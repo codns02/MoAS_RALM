@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="MoAS"
+            android:fontFamily="@font/hanna">
+
+            <menu>
+                <item
+                    android:id="@+id/menu3"
+                    android:title="동아리 소개"
+                    android:fontFamily="@font/hanna"
+                    android:icon="@drawable/ic_baseline_groups_24"/>
+
+                <item
+                    android:id="@+id/menu1"
+                    android:title="팀원소개"
+                    android:fontFamily="@font/hanna"
+                    android:icon="@drawable/ic_baseline_contact_page_24"/>
+
+                <item
+                    android:id="@+id/menu2"
+                    android:title="작품소개"
+                    android:fontFamily="@font/hanna"
+                    android:icon="@drawable/ic_baseline_article_24"/>
+
+                <item
+                    android:id="@+id/menu4"
+                    android:title="qr코드 인식"
+                    android:fontFamily="@font/hanna"
+                    android:icon="@drawable/ic_baseline_qr_code_scanner_24"/>
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

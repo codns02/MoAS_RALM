@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity__1">
+
+    <TextView
+        android:textColor="@color/black2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="작품 소개"
+        android:fontFamily="@font/hanna"
+        android:textSize="55dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <VideoView
+            android:layout_marginTop="10dp"
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:lineSpacingExtra="15dp"
+                android:fontFamily="@font/hanna"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="❐ 작품의 목적: 물류 시스템의 자동화와 \n애플리케이션을 통한 사용자의 시스템 접근성을\n키우는 것이 목적입니다. \nSCARA 로봇과 AGV를 활용하여 만들어진 자동화 물류를 앱을 통하여 실시간으로 상태를 확인하고, \n관리가 가능하도록 제작하였습니다.\n
+\n❐ 작품의 활용방안 및 기대효과: 기존의 시설을\n최대한 유지하면서 스마트 물류 시스템 적용이 가능하다는 것이 RALM의 장점입니다.\n그렇게 되면 초기 투자 비용이 새로운 물류센터를\n설계하는 것보다 현저하게 줄어듭니다.\n물류자동화 도입 후 평균적으로 불량률 46% 감소, 생산성 23% 증가, 원가 16% 절감의 효과를 \n보였습니다.\nRALM을 시작으로 스마트 물류 시스템이 보급화되는 미래를 기대하고 있습니다.\n\n❐ 작품의 구성 및 동작 설명:
+작품은 창고의 축소판을 구현하여 2개의 SCARA 로봇과 1개의 AGV로 이루어져 있습니다.\n각 구역의 로봇팔이 카메라로 물건의 위치와 개수를 인식하여 AGV에 물건을 실으면 AGV는 목적지로 이동하게 됩니다.\n이러한 로봇들은 STAR 토폴로지 형식으로 구축된 TCP 통신을 통해 서로의 상태와 위치를 실시간으로 공유하며 유기적으로 시스템이 작동합니다.\n이러한 과정들은 애플리케이션을 통해 확인할 수 있습니다."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

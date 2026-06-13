@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/introduce"
+    tools:context=".SubActivity_menu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❐ 학부, 학과명:  로봇자동화공학부"
+        android:fontFamily="@font/hanna"
+        android:textSize="30dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/call_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❐ 전공동아리명:  MoAS"
+        android:fontFamily="@font/hanna"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❐ 지도교수:  송호범, 조재승"
+        android:fontFamily="@font/hanna"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❐ 연락처:  010 5682 2355"
+        android:fontFamily="@font/hanna"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/potal"
+        android:lineSpacingExtra="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❐ 포털 사이트:\nhttps://www.dongyang.ac.kr/dongyang/index.do"
+        android:fontFamily="@font/hanna"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:lineSpacingExtra="7dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❐ 전공동아리 소개:  \nMobile of Automation System의 약자로\n이름에 걸맞게 모바일 애플리케이션을 개발하며 이를 자동화 시스템과 연결할 수 있는 작품들을
+        \n개발하고 있습니다."
+        android:fontFamily="@font/hanna"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
