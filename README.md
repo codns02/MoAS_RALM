@@ -1,4 +1,4 @@
-# MoAS_RALM
+<img width="1466" height="768" alt="스크린샷 2026-06-13 오후 4 42 53" src="https://github.com/user-attachments/assets/801915b1-46bb-4ec1-bdfd-b904858ed896" /># MoAS_RALM
 로봇 자동 물류 관리를 위한 통합 시스템의 안드로이드 애플리케이션 프로젝트입니다.
 
 ## 📱 프로젝트 소개
@@ -16,4 +16,7 @@
 - **라이브러리**: OpenCV (영상 처리)
 
 ## 📸 주요 화면
-(여기에 아까 우리가 봤던 발표 자료의 앱 화면 캡처본을 한두 장 넣어두면 훨씬 보기 좋습니다!)
+<img width="1466" height="768" alt="스크린샷 2026-06-13 오후 4 42 53" src="https://github.com/user-attachments/assets/dc2316a4-5008-4016-a169-1caccb3687d0" />
+<img width="1466" height="758" alt="스크린샷 2026-06-13 오후 4 43 24" src="https://github.com/user-attachments/assets/283a633a-c282-4b8d-9b4d-83be7fa43963" />
+
+
